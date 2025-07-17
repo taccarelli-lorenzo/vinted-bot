@@ -8,6 +8,9 @@ MAX_PRICE = 30
 VINTED_URL = f"https://www.vinted.it/vetements?search_text={SEARCH}"
 seen = set()
 
+
+TELEGRAM_TOKEN = 7708900875:AAFc7Ak7_7--GBBAFPPKAgWWwR32o5Rmt8E
+
 bot = Bot(token=os.environ["TELEGRAM_TOKEN"])
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 
